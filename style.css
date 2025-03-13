@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ebe8e8;
+}
+
+h2 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	padding: 5px;
+}
+
+#username, #email, #password, #second-password {
+	width: 230px;
+	padding: 3px 5px;
+}
+
+.warning {
+	display: none;
+	font-size: 0.8em;
+	color: red;
+}
+
+.password-box {
+	position: relative;
+	width: 230px;
+}
+
+.password-box svg {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.password-requirement {
+	display: none;
+	flex-direction: column;
+	font-size: 0.8em;
+	color: gray;
+}
+
+button {
+	margin: 5px 10px;
+	padding: 5px 10px;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.percentage-bar {
+	
+	height: 5px;
+	background-color: yellow;
+	margin-left: 10px;
+}
