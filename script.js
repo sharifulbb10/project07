@@ -51,7 +51,7 @@ password.addEventListener("keyup", ()=>{
 		document.querySelector('.minimum-length').style.color = "gray";
 	}
 
-	if ((/[^A-B]/g).test(password.value) && (/[^a-z]/g).test(password.value) && (/[^0-9]/g).test(password.value) && (/\S/g).test(password.value)) {
+	if ((/[^A-Z]/g).test(password.value) && (/[^a-z]/g).test(password.value) && (/[^0-9]/g).test(password.value) && (/\S/g).test(password.value)) {
 		document.querySelector(".special-sign").style.color = "green";
 	} else {
 		document.querySelector(".special-sign").style.color = "gray";
